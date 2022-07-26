@@ -28,7 +28,7 @@ const Works = () => (
             title="Face Detection"
             thumbnail={thumbfaceDetection}
           >
-            Real Time Face Detection With JavaScript
+            Real Time Face Detection With JavaScript111111
           </WorkGridItem>
         </Section>
 
