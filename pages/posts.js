@@ -25,16 +25,6 @@ const Posts = () => (
             thumbnail={thumbHowToUseInkdrop}
             href="https://www.youtube.com/watch?v=-qBavwqc_mY"
           />
-          <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
-          />
-          <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          />
         </SimpleGrid>
       </Section>
     </Container>
