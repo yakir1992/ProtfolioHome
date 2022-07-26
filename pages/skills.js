@@ -7,7 +7,16 @@ const Skills = () => (
       <Heading as="h3" fontSize={30} mb={4}>
         Skills
       </Heading>
-      <SimpleGrid>JavaScript, CSS, HTML</SimpleGrid>
+      <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        css={{ backdropFilter: 'blur(10px)' }}
+      >
+        HTML, CSS, JavaScript, PHP, React, TypeScript, Firebase
+      </Box>
     </Container>
   </Layout>
 )
