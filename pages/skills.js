@@ -5,7 +5,7 @@ const Skills = () => (
   <Layout title="Skills">
     <Container>
       <Heading as="h3" fontSize={30} mb={4}>
-        Skills
+        Tech Skills
       </Heading>
       <Box
         borderRadius="lg"
