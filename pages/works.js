@@ -19,7 +19,7 @@ const Works = () => (
         <Section>
           <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
             A Fully Responsive clone of Netflix website built using React with
-            Firebase1
+            Firebase
           </WorkGridItem>
         </Section>
         <Section>
