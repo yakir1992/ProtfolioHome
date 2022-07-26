@@ -19,7 +19,7 @@ const Works = () => (
         <Section>
           <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
             A Fully Responsive clone of Netflix website built using React with
-            Firebasee
+            Firebase
           </WorkGridItem>
         </Section>
         <Section>
@@ -28,7 +28,7 @@ const Works = () => (
             title="Face Detection"
             thumbnail={thumbfaceDetection}
           >
-            Real Time Face Detection With JavaScript
+            Real Time Face Detection With JavaScript1
           </WorkGridItem>
         </Section>
 
