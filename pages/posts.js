@@ -13,7 +13,7 @@ const Posts = () => (
         Popular Posts
       </Heading>
 
-      <Section delay={0.1}>
+      {/* <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How to build a portfolio website"
@@ -26,7 +26,7 @@ const Posts = () => (
             href="https://www.youtube.com/watch?v=-qBavwqc_mY"
           />
         </SimpleGrid>
-      </Section>
+      </Section> */}
     </Container>
   </Layout>
 )
