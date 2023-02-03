@@ -75,7 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Yakir is a freelance and a full-stack developer based in Israel with a
+          Yakir is a DevOps and a full-stack developer based in Israel with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
