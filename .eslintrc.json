@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": "next",
+  "react/display-name": 0
+}
