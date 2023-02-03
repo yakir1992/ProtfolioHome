@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an Full Stack Developer based in Israel!
+        Hello, I&apos;m an DevOps & Full Stack Developer based in Israel!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -104,11 +104,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Working at MalamTeam as an IT Administartor and Developer
+          Working at MalamTeam as an IT Administartor 
         </BioSection>
         <BioSection>
           <BioYear>2016 to present</BioYear>
-          Working as a freelancer
+          Working as a Freelancer
         </BioSection>
       </Section>
 
