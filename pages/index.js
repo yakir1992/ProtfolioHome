@@ -79,7 +79,7 @@ const Home = () => (
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
-          computers and automating things11
+          computers and automating things.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -108,7 +108,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016 to present</BioYear>
-          Working as a Freelancer
+          Passionate Web Developer
         </BioSection>
       </Section>
 
@@ -116,7 +116,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>Programming, Music, Soccer, Machine Learning</Paragraph>
+        <Paragraph>Football, Machine Learning</Paragraph>
       </Section>
 
       <Section delay={0.3}>
