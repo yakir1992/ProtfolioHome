@@ -43,7 +43,7 @@ const Work = () => (
       <UnorderedList my={4}>
         <ListItem>
           <Link href="https://beat-netflix-clone.vercel.app/" target="_blank">
-            <Badge mr={2}>Netflix Demo</Badge>
+            <Badge mr={2}>Live Demo</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -52,7 +52,7 @@ const Work = () => (
             href="https://github.com/yakir1992/Netflix-UIUX"
             target="_blank"
           >
-            <Badge mr={2}>Netflix Code</Badge>
+            <Badge mr={2}>Source Code</Badge>
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
