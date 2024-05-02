@@ -75,19 +75,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        With 8 years of experience as an IT Administrator and 2 years specializing in DevOps, I possess a diverse skill set encompassing a range of technologies essential for modern IT operations and software development. My expertise includes:
-
-Operating Systems: Proficient in managing and administering various operating systems such as Windows Server, Linux (Ubuntu, CentOS), and Unix.
-Networking: Skilled in network administration, including TCP/IP, DNS, DHCP, VPN, firewalls, and routing protocols.
-Virtualization: Experienced in virtualization technologies such as VMware vSphere and Microsoft Hyper-V for efficient resource utilization and infrastructure scalability.
-Cloud Services: Knowledgeable in cloud computing platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP), with hands-on experience in deploying and managing cloud-based infrastructure.
-Containerization and Orchestration: Proficient in containerization technologies like Docker and container orchestration platforms such as Kubernetes for automating deployment, scaling, and management of containerized applications.
-Configuration Management: Skilled in configuration management tools like Ansible and Puppet for automating the provisioning and configuration of servers and infrastructure.
-Continuous Integration/Continuous Deployment (CI/CD): Experienced in implementing CI/CD pipelines using tools like Jenkins, GitLab CI/CD, and CircleCI to automate software delivery processes and ensure rapid, reliable releases.
-Monitoring and Logging: Familiar with monitoring and logging tools such as Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), and Splunk for real-time visibility into system performance and troubleshooting.
-Scripting and Automation: Proficient in scripting languages like Bash, Python, and PowerShell for automating routine tasks, system administration, and deployment processes.
-Version Control: Experienced in version control systems such as Git for managing code repositories and facilitating collaboration among development teams.
-This summary highlights my extensive experience and proficiency in key technologies essential for modern IT administration, DevOps, and software development.
+          Yakir is a a DevOps Engineer and IT Administartor based in Israel with a
+          passion for building automating services/stuff he wants. He has a knack
+          for all things launching products, from planning and designing all the
+          way to solving real-life problems with code. When not online, he loves
+          football and automating things.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -116,7 +108,7 @@ This summary highlights my extensive experience and proficiency in key technolog
         </BioSection>
         <BioSection>
           <BioYear>2016 to present</BioYear>
-          Passionate Web Developer
+          Passionate IT, DevOps
         </BioSection>
       </Section>
 
