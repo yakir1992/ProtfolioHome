@@ -29,7 +29,7 @@ const Works = () => (
             title="Micro Services Video To Audio Converter"
             thumbnail={thumbvideoConverter}
           >
-            Real Time Face Detection With JavaScript
+           Converting mp4 videos to mp3 in a microservices architecture.
           </WorkGridItem>
         </Section>
 
