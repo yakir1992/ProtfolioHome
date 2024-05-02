@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbNetflix from '../public/images/works/DevSecOps.png'
+import thumbvideoConverter from '../public/images/works/videoConverter.png'
 import thumbfaceDetection from '../public/images/works/thumbfaceDetection.png'
 import thumbweatherApplicatoin from '../public/images/works/thumbweatherApplicatoin.png'
 
@@ -21,6 +22,17 @@ const Works = () => (
           Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
           </WorkGridItem>
         </Section>
+
+        <Section>
+          <WorkGridItem
+            id="videoConverter"
+            title="Micro Services Video To Audio Converter"
+            thumbnail={thumbvideoConverter}
+          >
+            Real Time Face Detection With JavaScript
+          </WorkGridItem>
+        </Section>
+
         <Section>
           <WorkGridItem
             id="faceDetection"
