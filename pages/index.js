@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an Full Stack Developer based in Israel!
+        Hello, I&apos;m an DevOps Engineer based in Israel!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Yakir Ben Harush
           </Heading>
-          <p>Full Stack Developer</p>
+          <p>DevOps Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,8 +75,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Yakir is a a Full-Stack Developer based in Israel with a
-          passion for building digital services/stuff he wants. He has a knack
+          Yakir is a a DevOps Engineer based in Israel with a
+          passion for building automating services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           football and automating things.
