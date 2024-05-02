@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Windows/macOS/Linux</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
