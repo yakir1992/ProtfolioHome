@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbNetflix from '../public/images/works/netflix_01.png'
+import thumbNetflix from '../public/images/works/DevSecOps.png'
 import thumbfaceDetection from '../public/images/works/thumbfaceDetection.png'
 import thumbweatherApplicatoin from '../public/images/works/thumbweatherApplicatoin.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -18,8 +18,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
-            A Fully Responsive clone of Netflix website built using React with
-            Firebase
+          Netflix Clone on Cloud using Jenkins - DevSecOps Project
           </WorkGridItem>
         </Section>
         <Section>
