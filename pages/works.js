@@ -17,8 +17,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
-          Netflix Clone on Cloud using Jenkins - DevSecOps Project
+          <WorkGridItem id="netflix" title="DevSecOps Flow Netflix Clone" thumbnail={thumbNetflix}>
+          Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
           </WorkGridItem>
         </Section>
         <Section>
