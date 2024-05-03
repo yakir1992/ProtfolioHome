@@ -18,6 +18,7 @@ import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
+
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
@@ -88,18 +89,6 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section">
-          Tech I work with
-        </Heading>
-        <Heading as="h3" variant="section-title">
-          DevOps
-        </Heading>
-        <BioSection>
-          
-        </BioSection>
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
