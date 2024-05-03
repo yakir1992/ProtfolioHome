@@ -100,7 +100,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Completed PHP Web Expert Certification at JohnBryce HiTech College
+          Completed PHP Web Expert Diploma at JohnBryce HiTech College
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
