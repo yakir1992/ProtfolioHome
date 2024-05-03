@@ -84,10 +84,19 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My Portfolio
             </Button>
           </NextLink>
         </Box>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Tech I Work With
+        </Heading>
+        <Heading as="h4" variant="section-title">
+          DevOps
+        </Heading>
       </Section>
 
       <Section delay={0.2}>
