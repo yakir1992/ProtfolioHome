@@ -94,8 +94,10 @@ const Home = () => (
         <Heading as="h3" variant="section">
           Tech I work with
         </Heading>
+        <BioSection>
+          DevOps
+        </BioSection>
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
