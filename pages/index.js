@@ -94,7 +94,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Tech I Work With
         </Heading>
-        <Heading as="h4" variant="section-title">
+        <Heading as="h4" variant="section">
           DevOps
         </Heading>
       </Section>
