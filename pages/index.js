@@ -34,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an DevOps Engineer based in Israel!
+        Hello, I&apos;m an IT Administartor & DevOps Engineer based in Israel!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Yakir Ben Harush
           </Heading>
-          <p>DevOps Engineer</p>
+          <p>Passionate DevOps & Full StackEngineer</p>
         </Box>
         <Box
           flexShrink={0}
