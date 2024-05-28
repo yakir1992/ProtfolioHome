@@ -77,12 +77,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          {/* <LinkItem href="/skills" path={path}>
-            Skills
-          </LinkItem> */}
-          {/* <LinkItem
+          { <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/yakir1992/ProtfolioHome"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -91,7 +88,7 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
-          </LinkItem> */}
+          </LinkItem>}
         </Stack>
 
         <Box flex={1} align="right">
