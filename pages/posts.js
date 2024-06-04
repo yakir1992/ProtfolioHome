@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 // import ansibleAutomation from '../public/images/contents/ansible.jpg'
-import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
+import ansibleAutomation from '../public/images/contents/ansible.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -21,9 +21,9 @@ const Posts = () => (
             href="https://medium.com/@yakir1992/exploring-ansible-the-power-of-it-automation-2235ab4bf017"
           /> */}
           {<GridItem
-            title="How to take notes in Markdown efficiently with Inkdrop"
-            thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"/> 
+            title="Ansible The Power of IT Automation"
+            thumbnail={ansibleAutomation}
+            href="https://medium.com/@yakir1992/exploring-ansible-the-power-of-it-automation-2235ab4bf017"/> 
             }
         </SimpleGrid>
       </Section>}
