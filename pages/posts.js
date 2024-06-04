@@ -15,11 +15,11 @@ const Posts = () => (
 
       { <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             title="Ansible: The Power of IT Automation"
             thumbnail={ansibleAutomation}
             href="https://medium.com/@yakir1992/exploring-ansible-the-power-of-it-automation-2235ab4bf017"
-          />
+          /> */}
           {<GridItem
             title="How to take notes in Markdown efficiently with Inkdrop"
             thumbnail={thumbHowToUseInkdrop}
