@@ -3,8 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-// import ansibleAutomation from '../public/images/contents/ansible.jpg'
-import ansibleAutomation from '../public/images/contents/ansible.jpg'
+import ansibleAutomation from '../public/images/contents/infrastructure-ansible-heasder-min-p-800.png'
 
 const Posts = () => (
   <Layout title="Posts">
