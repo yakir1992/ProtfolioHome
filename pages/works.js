@@ -25,7 +25,7 @@ const Works = () => (
         </Section>
 
         <Section>
-          <WorkGridItem id="netflix" title="Serverless API with Infrastructure as Code using Terraform" thumbnail={thumbServerless}>
+          <WorkGridItem id="netflix" title="Serverless API" thumbnail={thumbServerless}>
           Serverless API with Infrastructure as Code using Terraform
           </WorkGridItem>
         </Section>
