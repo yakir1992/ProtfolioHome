@@ -16,7 +16,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="Netflix">
     <Container>
-      <Title>DevSecOps - Netflix Clone</Title>
+      <Title>DevSecOps - Netflix Clone1</Title>
       <P>
       Deploy Netflix-like project on AWS using Jenkins for DevSecOps: Phase 1: Initial setup - Launch EC2 with Ubuntu 22.04, clone code, install Docker, and run app. Phase 2: Security - Install SonarQube and Trivy. Phase 3: CI/CD - Install Jenkins, set up pipeline. Phase 4: Monitoring - Install Prometheus and Grafana. Phase 5: Notification - Implement email alerts. Phase 6: Kubernetes - Set up cluster and monitor with Prometheus. Phase 7: Cleanup - Terminate unnecessary EC2 instances.
       </P>
