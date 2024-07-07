@@ -7,6 +7,7 @@ import thumbNetflix from '../public/images/works/DevSecOps.png'
 import thumbvideoConverter from '../public/images/works/videoConverter.png'
 import thumbfaceDetection from '../public/images/works/thumbfaceDetection.png'
 import thumbweatherApplicatoin from '../public/images/works/thumbweatherApplicatoin.png'
+import thumbServerless from '../public/images/works/thumbServerless.png'
 
 
 const Works = () => (
@@ -20,6 +21,12 @@ const Works = () => (
         <Section>
           <WorkGridItem id="netflix" title="DevSecOps Flow Netflix Clone" thumbnail={thumbNetflix}>
           Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="netflix" title="DevSecOps Flow Netflix Clone" thumbnail={thumbServerless}>
+          Serverless API with Infrastructure as Code using Terraform
           </WorkGridItem>
         </Section>
 
