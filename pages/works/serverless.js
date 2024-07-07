@@ -45,7 +45,7 @@ This setup offers a serverless architecture that scales with demand, ensuring hi
         <UnorderedList my={4}>
           <ListItem>
             <Link
-              href="https://github.com/yakir1992/DevSecops-Netflix"
+              href="https://github.com/yakir1992/Serverless-API-Terraform"
               target="_blank"
             >
               <Badge mr={2}>Source Code</Badge>
@@ -53,8 +53,7 @@ This setup offers a serverless architecture that scales with demand, ensuring hi
             </Link>
           </ListItem>
         </UnorderedList>
-        <WorkImage src="/images/works/DevSecOps.png" alt="Netflix" />
-        <WorkImage src="/images/works/netflix_02.PNG" alt="Netflix" />
+        <WorkImage src="/images/works/serverless-api-architecture.png" alt="ServerlessAPI" />
       </Container>
     </Layout>
   )
