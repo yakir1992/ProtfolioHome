@@ -44,7 +44,7 @@ import {
             </Link>
           </ListItem>
         </UnorderedList>
-        <WorkImage src="/images/works/serverless-api-architecture.png" alt="ServerlessAPI" />
+        <WorkImage src="/images/works/thumbServerless.png" alt="ServerlessAPI" />
       </Container>
     </Layout>
   )
