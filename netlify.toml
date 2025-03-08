@@ -4,4 +4,5 @@
 
 [build.environment]
   NODE_VERSION = "16"
-  NPM_FLAGS = "--legacy-peer-deps" 
+  NPM_FLAGS = "--legacy-peer-deps"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
