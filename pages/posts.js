@@ -14,7 +14,7 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="The Rise of Indie Makers: Building in Public"
-            thumbnail="/pages/images/posts/indie-makers.jpg"
+            thumbnail="/images/posts/the-rise-of-indie-makers.jpg"
             href="/posts/the-rise-of-indie-makers"
           />
           {/* Add more GridItems as needed */}

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Box, LinkBox, LinkOverlay } from '@chakra-ui/react'
 
 // Define the thumbnail path as a constant
-const thumbRiseOfIndieMakers = '/pages/images/posts/the-rise-of-indie-makers.jpg';
+const thumbRiseOfIndieMakers = '/images/posts/the-rise-of-indie-makers.jpg';
 
 const IndieMakersPost = () => (
     <Layout title="The Rise of Indie Makers" thumbnail={thumbRiseOfIndieMakers}>
