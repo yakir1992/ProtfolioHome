@@ -21,3 +21,5 @@ export function getStaticProps() {
     props: {}
   }
 }
+
+export default Chakra
