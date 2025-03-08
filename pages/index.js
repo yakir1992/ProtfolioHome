@@ -64,8 +64,9 @@ const Home = () => (
               src="/images/yakir.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width="100"
+              height="100"
+              unoptimized
             />
           </Box>
         </Box>
