@@ -26,9 +26,9 @@ const IndieMakersPost = () => {
                             Development
                         </Badge>
                         <Heading as="h1" fontSize={["2xl", "3xl", "4xl"]} mb={4}>
-                            The Rise of Indie Makers: Building in Public
+                            become a indie maker
                         </Heading>
-                        <Text color="gray.500" mb={8}>October 12, 2023 • 6 min read</Text>
+                        <Text color="gray.500" mb={8}>March 8, 2025 • 5 min read</Text>
                     </Box>
 
                     <Box position="relative" h={["200px", "300px", "400px"]} w="100%" mb={8} borderRadius="lg" overflow="hidden">
@@ -42,61 +42,85 @@ const IndieMakersPost = () => {
                     </Box>
 
                     <Box fontSize={["md", "lg"]} lineHeight="tall">
-                        <Text fontWeight="semibold" fontSize={["xl", "2xl"]} mb={4}>
-                            In recent years, the indie maker movement has gained significant traction.
-                        </Text>
-
-                        <Text mb={6}>
-                            More individuals are choosing to build their own products and services,
-                            often while sharing their journey publicly. This approach not only fosters
-                            community engagement but also provides valuable feedback and support.
-                        </Text>
-
-                        <Heading as="h2" size="lg" mb={4} mt={8}>
-                            What Makes an Indie Maker?
+                        <Heading as="h2" size="lg" mb={4} mt={8} className="underline">
+                            transform your passion into a profitable business
                         </Heading>
 
                         <Text mb={6}>
-                            Indie makers are typically characterized by their resourcefulness and
-                            creativity. They leverage various tools and platforms to bring their ideas
-                            to life, often with limited budgets. The rise of no-code tools and
-                            accessible online resources has made it easier than ever for anyone to
-                            start their own venture.
+                            in the past i felt like i need to have a full time job to make money and support my family.
+                            but now i feel like i can make money by doing what i love.
+                            i'm not saying that you need to quit your job to become a indie maker.
+                            but you need to find a way to make money while doing what you love.
+                            so how to do that?
+                            first, you need to find a problem that you want to solve.
+                            second, you need to find a solution to that problem.
+                            third, you need to build a product that solves that problem.
+                            fourth, you need to market your product.
+                            fifth, you need to sell your product.
+                            sixth, you need to repeat the process.
                         </Text>
 
                         <Heading as="h2" size="lg" mb={4} mt={8}>
-                            The Power of Building in Public
+                            i did not liked to code in the past
                         </Heading>
 
                         <Text mb={6}>
-                            Building in public allows indie makers to document their progress, share
-                            insights, and connect with like-minded individuals. This transparency can
-                            lead to a loyal following and potential customers who are invested in the
-                            maker's journey.
+                            now when i code meaningful applications that help people to make their life easier,
+                            i feel like i'm doing what i love.
+                            also my inner voice is quiet now and i'm more focused on my goals.
+                            it's like a magic, you will feel like you're on the right path.
+                            i'm not saying that it's easy, but it's worth it.
+                            i also feel like i'm more productive now, i have more energy and i'm more motivated.
+                            also the entrepreneur mindset is absolutely something that i'm interested in.
+                            so indie maker is a perfect fit for me.
+                        </Text>
+
+                        <Heading as="h2" size="lg" mb={4} mt={8}>
+                            the power of building in public
+                        </Heading>
+
+                        <Text mb={6}>
+                            building in public allows you to get feedback from your audience.
+                            you can get feedback on your product, your website, your business model, etc.
+                            you meet new people and you can learn from them.
+                            you can build a community around your brand.
                         </Text>
 
                         <Text mb={6}>
-                            When you share your process openly, you:
+                            when you share your process openly, you:
                         </Text>
 
                         <Box pl={4} mb={6}>
-                            <Text>• Create authentic connections with your audience</Text>
-                            <Text>• Receive real-time feedback on your product</Text>
-                            <Text>• Build a community around your brand</Text>
-                            <Text>• Hold yourself accountable to your goals</Text>
-                            <Text>• Learn from other makers in the space</Text>
+                            <Text>• create authentic connections with your audience</Text>
+                            <Text>• receive real-time feedback on your product</Text>
+                            <Text>• build a community around your brand</Text>
+                            <Text>• hold yourself accountable to your goals</Text>
+                            <Text>• learn from other makers in the space</Text>
                         </Box>
 
                         <Text mb={6}>
-                            If you're considering becoming an indie maker, remember that the journey
-                            is just as important as the destination. Embrace the challenges, learn
+                            if you're considering becoming an indie maker, remember that the journey
+                            is just as important as the destination. embrace the challenges, learn
                             from your experiences, and don't hesitate to share your story with the
                             world.
+                        </Text>
+                        <Heading as="h2" size="lg" mb={4} mt={8}>
+                            what's next?
+                        </Heading>
+
+                        <Text mb={6}>
+                            right now working on my first product and i'm excited to share it with you.
+                            the product is a tool that helps you to get focus and stay focused.
+                            FocusFast is the name of the product.
+                            right now creating features and working on the website.
+                            i will keep you updated on my progress.<br />
+                            best regards,<br />
+                            yakir
                         </Text>
                     </Box>
                 </Section>
             </Container>
-        </Layout>
+        </Layout >
     )
 }
 
