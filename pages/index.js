@@ -34,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an IT Administartor & DevOps Engineer based in Israel!
+        Hello, I&apos;m an DevOps Engineer and Indie maker
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Yakir Ben Harush
           </Heading>
-          <p>Passionate DevOps & Full Stack Engineer</p>
+          <p>Passionate DevOps & Indie maker</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,11 +76,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Yakir is a a DevOps Engineer and IT Administartor based in Israel with a
-          passion for building automating services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          football and automating things.
+          A devops engineer with passion for building automating services/stuff.
+          Indie Maker and Tech enthusiast.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -104,11 +101,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Working at MalamTeam as an IT Administartor 
+          MalamTeam
         </BioSection>
         <BioSection>
-          <BioYear>2016 to present</BioYear>
-          IT, DevOps, Web-Dev
+          <BioYear>2024</BioYear>
+          Prologic
         </BioSection>
       </Section>
 
