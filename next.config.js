@@ -5,5 +5,4 @@ module.exports = {
     unoptimized: true,
   },
   trailingSlash: true,
-  output: 'export'
 }
