@@ -20,13 +20,13 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="netflix" title="DevSecOps Flow Netflix Clone" thumbnail={thumbNetflix}>
-          Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
+            Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
           </WorkGridItem>
         </Section>
 
         <Section>
           <WorkGridItem id="serverless" title="Serverless API" thumbnail={thumbServerless}>
-          Serverless API with Infrastructure as Code using Terraform
+            Serverless API with Infrastructure as Code using Terraform
           </WorkGridItem>
         </Section>
 
@@ -36,7 +36,7 @@ const Works = () => (
             title="Micro Services Video To Audio Converter"
             thumbnail={thumbvideoConverter}
           >
-           Converting mp4 videos to mp3 in a microservices architecture.
+            Converting mp4 videos to mp3 in a microservices architecture
           </WorkGridItem>
         </Section>
 
