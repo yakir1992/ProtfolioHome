@@ -29,7 +29,7 @@ const IndieMakersPost = () => (
                 lead to a loyal following and potential customers who are invested in the
                 maker's journey.
             </Text>
-            <Text>
+            <Text mb={4}>
                 If you're considering becoming an indie maker, remember that the journey
                 is just as important as the destination. Embrace the challenges, learn
                 from your experiences, and don't hesitate to share your story with the
@@ -48,7 +48,6 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
                 width={300}
                 height={200}
                 className="grid-item-thumbnail"
-                placeholder="blur"
                 loading="lazy"
             />
             <LinkOverlay href={href} target="_blank">

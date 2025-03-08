@@ -1,4 +1,8 @@
 module.exports = {
   reactStrictMode: true,
-  swcMinify: true
+  images: {
+    domains: ['localhost'],
+  },
+  trailingSlash: true,
+  output: 'export'
 }
