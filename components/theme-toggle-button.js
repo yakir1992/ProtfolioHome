@@ -1,9 +1,17 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
+import useSound from 'use-sound'
 
 const ThemeToggleButton = () => {
   const { toggleColorMode } = useColorMode()
+
+  const [playSound] = useSound('/audio/lightswitch.mp3', { volume: 0.5 })
+
+  const handleToggle = () => {
+    playSound()
+    toggleColorMode()
+  }
 
   return (
     <AnimatePresence exitBeforeEnter initial={false}>
@@ -19,7 +27,7 @@ const ThemeToggleButton = () => {
           aria-label="Toggle theme"
           colorScheme={useColorModeValue('purple', 'orange')}
           icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
-          onClick={toggleColorMode}
+          onClick={handleToggle}
         ></IconButton>
       </motion.div>
     </AnimatePresence>
