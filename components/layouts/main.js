@@ -27,7 +27,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Yakir Ben Harush" />
         <meta name="og:title" content="Yakir Ben Harush" />
         <meta property="og:type" content="website" />
-        <title>Yakir Ben Harush - Homepage</title>
+        <title>Yakir Ben Harush</title>
       </Head>
 
       <NavBar path={router.asPath} />
