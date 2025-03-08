@@ -1,28 +1,38 @@
-import { Container, Heading, SimpleGrid, Box } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, Flex, Text, Badge, useColorModeValue } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { BlogItem } from '../components/blog-item'
+import { IoHeartOutline, IoChatbubbleOutline } from 'react-icons/io5'
 
-const Posts = () => (
-  <Layout title="Posts">
-    <Container>
-      <Heading as="h3" fontSize={30} mb={4}>
-        Popular Posts
-      </Heading>
+const Posts = () => {
+  const bgBox = useColorModeValue('whiteAlpha.800', 'whiteAlpha.200')
 
-      <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="The Rise of Indie Makers: Building in Public"
-            thumbnail="/images/posts/the-rise-of-indie-makers.jpg"
-            href="/posts/the-rise-of-indie-makers"
-          />
-          {/* Add more GridItems as needed */}
+  return (
+    <Layout title="Blog Posts">
+      <Container maxW="container.xl">
+        <Heading as="h2" fontSize={32} mb={8} mt={4}>
+          Blog Posts
+        </Heading>
+
+        <SimpleGrid columns={[1, 1, 2, 3]} spacing={8}>
+          <Section delay={0.1}>
+            <BlogItem
+              title="working on becoming a indie maker besides my full time job"
+              thumbnail="/images/posts/the-rise-of-indie-makers.jpg"
+              href="/posts/the-rise-of-indie-makers"
+              date="Mar 08, 2025"
+              category="Development"
+              excerpt="More individuals are choosing to build their own products and services, often while sharing their journey publicly."
+            />
+          </Section>
+
+
+
         </SimpleGrid>
-      </Section>
-    </Container>
-  </Layout>
-)
+      </Container>
+    </Layout>
+  )
+}
 
 export default Posts
 export { getStaticProps } from '../components/chakra'
