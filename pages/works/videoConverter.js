@@ -50,5 +50,5 @@ import {
   )
   
   export default Work
-  export { getServerSideProps } from '../../components/chakra'
+  export { getStaticProps } from '../../components/chakra'
   
