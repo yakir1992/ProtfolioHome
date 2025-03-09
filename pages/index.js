@@ -98,10 +98,6 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Completed PHP Web Expert Diploma at JohnBryce HiTech College
-        </BioSection>
-        <BioSection>
-          <BioYear>2016</BioYear>
           MalamTeam
         </BioSection>
         <BioSection>
@@ -141,17 +137,6 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 @yakir1992
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/yakirbenharosh" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @yakirbenharosh
               </Button>
             </Link>
           </ListItem>
