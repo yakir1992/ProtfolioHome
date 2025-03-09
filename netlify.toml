@@ -6,3 +6,8 @@
   NODE_VERSION = "16"
   NPM_FLAGS = "--legacy-peer-deps"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[redirects]]
+  from = "/todo/*"
+  to = "/todo/index.html"
+  status = 200
