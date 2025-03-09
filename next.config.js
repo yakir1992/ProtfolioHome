@@ -3,12 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
-  // Add these settings for image optimization
+  // Configure images for static export
   images: {
     unoptimized: true,
   },
 
-  // Use more specific rewrites for the todo app
+  // Add rewrites for development only (these don't apply to static exports)
   async rewrites() {
     return [
       {
@@ -20,6 +20,16 @@ const nextConfig = {
         destination: '/todo/:path*',
       }
     ]
+  },
+
+  // Explicitly set output to export
+  output: 'export',
+
+  // Turn off image optimization explicitly
+  experimental: {
+    images: {
+      allowFutureImage: true,
+    },
   }
 }
 

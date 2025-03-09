@@ -1,8 +1,8 @@
-import { Container, Box, Heading, Text, Button, Code } from '@chakra-ui/react'
+import { Container, Box, Heading, Text, Button, Code, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
+import NextLink from 'next/link'
 
 const TodoApp = () => {
     const [iframeStatus, setIframeStatus] = useState('Loading...')
@@ -51,6 +51,11 @@ const TodoApp = () => {
                         >
                             {showTodoApp ? 'Hide iframe' : 'Show iframe'}
                         </Button>
+                        <NextLink href="/" passHref>
+                            <Button as={Link} mt={2} ml={2} size="sm" colorScheme="gray">
+                                Return to Home
+                            </Button>
+                        </NextLink>
                     </Box>
 
                     {showTodoApp && (
