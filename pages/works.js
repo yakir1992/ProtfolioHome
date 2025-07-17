@@ -8,6 +8,7 @@ import thumbvideoConverter from '../public/images/works/videoConverter.png'
 import thumbfaceDetection from '../public/images/works/thumbfaceDetection.png'
 import thumbweatherApplicatoin from '../public/images/works/thumbweatherApplicatoin.png'
 import thumbServerless from '../public/images/works/thumbServerless.png'
+import thumbFocusFast from '../public/images/works/focusFast.png'
 
 
 const Works = () => (
@@ -21,6 +22,12 @@ const Works = () => (
         <Section>
           <WorkGridItem id="netflix" title="DevSecOps Flow Netflix Clone" thumbnail={thumbNetflix}>
             Deployed Netflix Clone on Cloud using Jenkins - DevSecOps Project
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="focusFast" title="FocusFast - Productivity App" thumbnail={thumbFocusFast}>
+            Achieve deep focus in minutes, not hours. Drop into flow state on demand.
           </WorkGridItem>
         </Section>
 
