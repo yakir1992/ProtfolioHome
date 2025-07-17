@@ -26,7 +26,7 @@ const IndieMakersPost = () => {
                             Development
                         </Badge>
                         <Heading as="h1" fontSize={["2xl", "3xl", "4xl"]} mb={4}>
-                            become a indie maker
+                            become a indie maker 🤘🏻
                         </Heading>
                         <Text color="gray.500" mb={8}>March 8, 2025 • 5 min read</Text>
                     </Box>
