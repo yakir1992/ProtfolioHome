@@ -64,7 +64,7 @@ const Work = () => (
             </UnorderedList>
 
             <WorkImage
-                src="public/images/works/focusFast.png"
+                src="/images/works/focusFast.png"
                 alt="FocusFast"
             />
         </Container>
